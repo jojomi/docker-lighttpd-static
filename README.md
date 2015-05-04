@@ -21,9 +21,9 @@ Check if it works:
 
 ## Building The Image Yourself (optional)
 
-    docker build -t jojomi/latex .
+    docker build -t jojomi/lighttpd-static .
 
 The image is conveniently small at **below 7 MB** thanks to [alpine](http://gliderlabs.viewdocs.io/docker-alpine):
 
-    docker images | grep lighttp
+    docker images | grep lighttpd
     jojomi/lighttpd-static   latest              b2e7a8364baa        1 second ago      6.451 MB
